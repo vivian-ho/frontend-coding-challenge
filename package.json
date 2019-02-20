@@ -1,0 +1,15 @@
+{
+  "name": "frontend-coding-challenge",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/vivian-ho/frontend-coding-challenge.git",
+  "author": "Vivian Ho",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

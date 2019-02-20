@@ -1,0 +1,16 @@
+.calendar-date {
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  
+  .fas {
+    margin: 8px;
+  }
+  
+  .campaign {
+    margin-left: 25px;
+  }
+  
+  .danger {
+    font:red;
+  }

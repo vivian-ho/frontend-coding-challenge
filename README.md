@@ -1,49 +1,78 @@
-# Frontend Coding Problem
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is an Angular 2+ / ReactJS + HTML / CSS coding problem. This task is divided in 4 parts. First 3 are mandatory and 4th part is a bonus task. Put your code on Github and submit a repository link. 
+## Available Scripts
 
-## 1. Implement Responsive Design using Bootstrap or Foundation
+In the client directory, you can run:
 
-1. Implement design of `Dashboard.jpg` attached using Bootstrap or Foundation. Cards data is provided in `cards.json` attached
-2. The design should be responsive down to iPhone 5. You are not provided mobile designs. Please implement responsive design according to your own intuition
-3. Design and implement Campaigns selection dropdown (List of campaigns is provided in `campaigns.json` attached
+### `yarn install`
 
-_Pending, Search, Data buttons do not need to be functional_
+### `yarn build`
 
+### `yarn start`
 
-What we are looking for:
+Keep the terminal open, then in another terminal go to project root run
 
-* Attention to detail. Please make the desktop design as close to provide JPG as possible
-* HTML structure
-* Structure for CSS classes
-* Your own design sense
+### `yarn install`
 
-## 2. Implement Functionality of Campaigns Filter in AngularJS 2.0 or ReactJS
+### `npm run start`
 
-User should be able to filter cards shown based on the selected campaign. Dropdown should also provide "All Campaigns" selection which should show all campaigns. Please implement a component based structure. Use campaign ID field in `cards.json` and `campaigns.json` to correlate cards with selected campaign. The rest of fields on the card need not to be functional. 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-What we are looking for:
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-* Sense of App structure in AngularJS 2+ / ReactJS
-* JavaScript coding style and structure
+### `npm test`
 
-## 3. Implement Functionality of Moving Cards Between States
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The cards are in one of the following states: `'saved','pending','active','paused','expired','declined','terminated'` based on the value in the `currentWorkflow` field. Implement functionality that moves the cards between states. Mock this (or as bonus in #4 implement this) as a process that takes 5+ seconds to complete. The state diagram is as follows:
+### `npm run build`
 
-![State Diagram](/state-diagram.png)
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-What we are looking for:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-* The ability to move items through a set of states.
-* Seing how well user (micro) interactions are handled (especially when completion of the interaction is not instant)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 4. (Bonus) Implement basic NodeJS express server
+### `npm run eject`
 
-Instead of hardcoding `campaigns.json` and `cards.json` in frontend, put them at backend and write API's to fetch campaigns dropdown data and cards from backend. 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-What we are looking for:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* RESTful use of API's
-* Usage of API's in Angular 2+ / React JS
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
